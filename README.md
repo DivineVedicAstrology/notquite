@@ -16,23 +16,20 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:8080](http://localhost:8080).
-
 ```bash
 npm run build
 npm run typecheck
 ```
 
-## Stills
+## Deploy on Vercel
 
-Place JPEG stills in `public/art/`:
+1. Open [vercel.com/new](https://vercel.com/new) and sign in with GitHub.
+2. Import **DivineVedicAstrology/notquite**.
+3. Confirm the framework preset is **TanStack Start**.
+4. Click **Deploy**. Leave env vars empty for the first launch.
 
-- `rahul-hero.jpg` (hero)
-- `rahul-portrait.jpg` (About)
-- project stills matching `src/lib/data/projects.ts` (`brb.jpg`, `quiet.jpg`, `mask.jpg`, …)
+Every push to `main` then publishes a new production build. First public URL will look like `notquite.vercel.app`. A custom domain can be added later in Vercel → Project → Settings → Domains.
 
-Until those files are in the repo, the reel layout still runs. Images 404 until you drop them in.
+Optional later: add `DATABASE_URL` (Neon) if you want contact submissions to persist in production.
 
-If you have `notquite-github.zip` from Grok, copy `public/art/` from that zip into this folder.
-
-Custom domain comes later. This repo is the source of truth for **notquite**.
+This repo is the source of truth for **notquite**.
