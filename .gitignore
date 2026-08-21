@@ -1,0 +1,34 @@
+# dependencies
+node_modules
+
+# build
+.vercel
+.output
+.nitro
+.tanstack
+dist
+.cache
+
+# env (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# local / sandbox
+*.log
+.DS_Store
+coverage
+data
+*.local
+
+# not for the public repo
+AGENTS.md
+.grok
+screenshots
+artifacts
+attachments
+.project_id
+.node_modules.lock
+startup.sh
+
+notquite-github.zip
