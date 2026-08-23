@@ -361,6 +361,39 @@ export const projects: Project[] = [
     synopsis:
       "Womenswear as weather. A peplum over a floodlit ruin. Eleven seconds, and a collection has a climate.",
   },
+  {
+    slug: "galaxy-in-the-cut",
+    title: "Galaxy in the Cut",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/galaxy-cut.jpg",
+    line: "The jacket is the weather. The lining is a sky.",
+    synopsis:
+      "Quiet-luxury fashion with a cosmos in the wool. A founder of a house sees the garment become a climate, not a lookbook.",
+  },
+  {
+    slug: "smoke-tailor",
+    title: "Smoke Tailor",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/smoke-tailor.jpg",
+    line: "The scent stands up and puts on a jacket.",
+    synopsis:
+      "Home fragrance as couture. Pink marble, one wick, smoke that knows how to dress. A candle house could live here in eleven seconds.",
+  },
+  {
+    slug: "diamond-fountain",
+    title: "Diamond Fountain",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/diamond-fountain.jpg",
+    line: "Gold pours through the cut. The stone holds a sky.",
+    synopsis:
+      "Fine jewelry as a fountain. Pearls in orbit, a ring that contains weather. For a house that wants the stone to feel inevitable.",
+  },
 ];
 
 export function getProject(slug: string) {

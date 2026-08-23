@@ -44,9 +44,9 @@ function FoundersHero() {
           Eleven seconds. No crew. No flights.
         </p>
         <p className="rise-in rise-in-3 mt-6 max-w-lg text-sm leading-relaxed text-muted md:text-base">
-          A ritual a product could inhabit. A serum under water. A tumbler in
-          morning light. A villa that never needed a booking. A suit that
-          holds the hour with no one in it. The film does not sell. It seduces.
+          A ritual a product could inhabit. Fashion. Fragrance. Jewelry. A
+          serum, a tumbler, a villa, a suit that holds a sky. The film does
+          not sell. It seduces.
         </p>
         <div className="rise-in rise-in-4 mt-10 flex flex-wrap items-center gap-3">
           <a
