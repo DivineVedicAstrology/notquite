@@ -394,6 +394,28 @@ export const projects: Project[] = [
     synopsis:
       "Fine jewelry as a fountain. Pearls in orbit, a ring that contains weather. For a house that wants the stone to feel inevitable.",
   },
+  {
+    slug: "crystal-atelier",
+    title: "Crystal Atelier",
+    category: "UGC",
+    year: "2026",
+    span: "wide",
+    image: "/art/crystal-atelier.jpg",
+    line: "Six climates. One collection. Each cut lives in its own sky.",
+    synopsis:
+      "A lookbook as a constellation. Crystal rooms for corset, trouser, jacket. A founder sees the whole house in a single still.",
+  },
+  {
+    slug: "galaxy-bodice",
+    title: "Galaxy Bodice",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/galaxy-bodice.jpg",
+    line: "Sunset on the terrace. A galaxy where the heart would be.",
+    synopsis:
+      "Quiet-luxury womenswear. Ivory corset, pearl orbit, sea behind glass. The garment holds weather. The hour holds the brand.",
+  },
 ];
 
 export function getProject(slug: string) {
