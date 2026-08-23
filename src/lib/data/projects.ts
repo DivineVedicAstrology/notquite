@@ -328,8 +328,45 @@ export const projects: Project[] = [
     synopsis:
       "Baroque light, a giant koi, dust as stained glass. Surrealism at museum volume. Faith, rewritten as weather.",
   },
+  {
+    slug: "the-suit-that-stayed",
+    title: "The Suit That Stayed",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/ivory-suit.jpg",
+    line: "Sunset on the terrace. No one in it, and it still holds the hour.",
+    synopsis:
+      "Quiet-luxury fashion UGC. An ivory suit as a ghost the brand can inhabit. No model. No shout. The garment is the scene.",
+  },
+  {
+    slug: "evening-cut",
+    title: "Evening Cut",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/evening-cut.jpg",
+    line: "Gold buttons. Torchlight. The wearer already left the frame.",
+    synopsis:
+      "A black double-breasted cut for a house that wants myth without a campaign crew. Evening, held. Founders: this is your lookbook as cinema.",
+  },
+  {
+    slug: "peplum-over-the-flood",
+    title: "Peplum Over the Flood",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/black-tide.jpg",
+    line: "The trousers remember walking. The water does not mind.",
+    synopsis:
+      "Womenswear as weather. A peplum over a floodlit ruin. Eleven seconds, and a collection has a climate.",
+  },
 ];
 
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug) ?? null;
+}
+
+export function getUgcProjects() {
+  return projects.filter((p) => p.category === "UGC");
 }

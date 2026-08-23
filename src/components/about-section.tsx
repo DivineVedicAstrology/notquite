@@ -43,7 +43,12 @@ export function AboutSection() {
               For founders: exclusive luxury UGC. Eleven seconds. No crew. No
               flights. A ritual a product could inhabit: a serum under
               water, a tumbler in morning light, a villa that never needed a
-              booking. The film does not sell. It seduces.
+              booking, a suit that holds the hour. The film does not sell. It
+              seduces.{" "}
+              <a href="/founders" className="text-fg underline-offset-4 hover:underline">
+                Open the founder book
+              </a>
+              .
             </p>
           </div>
           <blockquote className="font-display mt-10 max-w-xl border-l border-accent/50 pl-5 text-2xl leading-snug text-fg italic md:text-3xl">

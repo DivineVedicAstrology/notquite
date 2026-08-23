@@ -16,18 +16,17 @@ const aspectClass: Record<Project["span"], string> = {
   mid: "aspect-[4/3]",
 };
 
-export function ProjectGrid() {
-  const [filter, setFilter] = useState<Category | "All">("All");
+export function ProjectGrid({ locked }: { locked?: Category } = {}) {
+  const [filter, setFilter] = useState<Category | "All">(locked ?? "All");
   const [active, setActive] = useState<Project | null>(null);
   const { src } = useSiteArt();
 
-  const visible = useMemo(
-    () =>
-      filter === "All"
-        ? projects
-        : projects.filter((p) => p.category === filter),
-    [filter],
-  );
+  const visible = useMemo(() => {
+    if (locked) return projects.filter((p) => p.category === locked);
+    return filter === "All" ? projects : projects.filter((p) => p.category === filter);
+  }, [filter, locked]);
+
+  const total = locked ? visible.length : projects.length;
 
   return (
     <section id="work" className="scroll-mt-24 px-5 py-24 md:px-8 md:py-32">
@@ -35,21 +34,23 @@ export function ProjectGrid() {
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="font-mono text-[0.65rem] tracking-[0.32em] text-muted uppercase">
-              the reel
+              {locked === "UGC" ? "the book" : "the reel"}
             </p>
             <h2 className="font-display mt-3 max-w-full pr-2 text-3xl text-fg italic md:text-6xl">
-              not quite a gallery.
+              {locked === "UGC" ? "a ritual a product could inhabit." : "not quite a gallery."}
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
-              {projects.length} stills. Hover for the line behind the cut.
-              Filter a room: cyberpunk, ocean, animal, poetic, or UGC luxury.
+              {locked === "UGC"
+                ? `${visible.length} stills. Hover. This is what eleven seconds looks like before your brand walks in.`
+                : `${projects.length} stills. Hover for the line behind the cut. Filter a room: cyberpunk, ocean, animal, poetic, or UGC luxury.`}
             </p>
           </div>
           <p className="font-mono text-[0.65rem] tracking-[0.22em] text-subtle uppercase">
-            {String(visible.length).padStart(2, "0")} / {String(projects.length).padStart(2, "0")} scenes
+            {String(visible.length).padStart(2, "0")} / {String(total).padStart(2, "0")} scenes
           </p>
         </div>
 
+        {locked ? null : (
         <div className="mt-10 flex flex-wrap gap-2" role="tablist" aria-label="Filter by category">
           {(["All", ...CATEGORIES] as const).map((cat) => {
             const selected = filter === cat;
@@ -72,6 +73,7 @@ export function ProjectGrid() {
             );
           })}
         </div>
+        )}
 
         <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-12 md:gap-5">
           {visible.map((project, i) => (
