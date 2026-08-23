@@ -50,7 +50,7 @@ export function AboutSection() {
             real enough to believe.
           </blockquote>
           <p className="mt-6 text-sm tracking-[0.16em] text-subtle uppercase">
-            Mohali · @RahulAiArt · notquite
+            New Delhi · @RahulAiArt · notquite
           </p>
         </div>
       </div>
