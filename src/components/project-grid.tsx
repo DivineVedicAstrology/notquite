@@ -42,7 +42,7 @@ export function ProjectGrid() {
             </h2>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
               {projects.length} stills. Hover for the line behind the cut.
-              Filter UGC for the luxury exclusive reel.
+              Filter a room: cyberpunk, ocean, animal, poetic, or UGC luxury.
             </p>
           </div>
           <p className="font-mono text-[0.65rem] tracking-[0.22em] text-subtle uppercase">
@@ -61,7 +61,7 @@ export function ProjectGrid() {
                 aria-selected={selected}
                 onClick={() => setFilter(cat)}
                 className={cn(
-                  "inline-flex h-11 items-center rounded-full border px-4 text-[0.7rem] tracking-[0.16em] uppercase transition-[background-color,border-color,color] duration-150",
+                  "inline-flex h-10 items-center rounded-full border px-3.5 text-[0.65rem] tracking-[0.14em] uppercase transition-[background-color,border-color,color] duration-150",
                   selected
                     ? "border-fg bg-fg text-bg"
                     : "border-border text-muted hover:border-fg/35 hover:text-fg",

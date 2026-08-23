@@ -12,6 +12,7 @@ const ARCHETYPES = [
   { n: "03", title: "Cinematic storytelling", note: "Anamorphic hush. Stage light as a cue, not a glow." },
   { n: "04", title: "Celestial myth", note: "Dragons of lantern-light. Observatories aimed at the script." },
   { n: "05", title: "Quiet luxury ritual", note: "Paris at dawn. Rain on Haussmann glass. A life, inhabited." },
+  { n: "06", title: "Gallery rooms", note: "Cyberpunk rain. Voxel cathedrals. Tigers in silk. Ocean as a pause." },
 ];
 
 function SkillColumn({

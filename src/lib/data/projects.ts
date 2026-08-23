@@ -1,4 +1,19 @@
-export const CATEGORIES = ["Surrealism", "Glitch", "Psychedelic", "UGC"] as const;
+export const CATEGORIES = [
+  "Surrealism",
+  "Glitch",
+  "Psychedelic",
+  "UGC",
+  "Cyberpunk",
+  "Pixel",
+  "Oceanscape",
+  "Ethereal",
+  "Futuristic",
+  "Illusion",
+  "Double Exposure",
+  "Asphalt",
+  "Animals",
+  "Poetic",
+] as const;
 
 export type Category = (typeof CATEGORIES)[number];
 
@@ -180,6 +195,138 @@ export const projects: Project[] = [
     line: "Rain on black lacquer. Brass catching the awning. Luxury that winks, never shouts.",
     synopsis:
       "An evening a fragrance, a watch, a key could occupy. Wet cobble, one gold handle, the cut before anyone speaks.",
+  },
+  {
+    slug: "neon-that-remembers",
+    title: "Neon That Remembers",
+    category: "Cyberpunk",
+    year: "2026",
+    span: "wide",
+    image: "/art/neon-rain.jpg",
+    line: "Rain writes the city twice. Once on the sign. Once on the street.",
+    synopsis:
+      "A crimson alley, steam from the grate, a coat that knows the hour. Cyberpunk as hush, not noise. The night is the set.",
+  },
+  {
+    slug: "the-voxel-nave",
+    title: "The Voxel Nave",
+    category: "Pixel",
+    year: "2026",
+    span: "tall",
+    image: "/art/voxel-nave.jpg",
+    line: "Worship, built one cube at a time. Candlelight with edges.",
+    synopsis:
+      "A cathedral assembled from gold voxels in a black studio. Pixel craft as relic. The sacred, rendered discrete.",
+  },
+  {
+    slug: "a-comma-on-water",
+    title: "A Comma on Water",
+    category: "Oceanscape",
+    year: "2026",
+    span: "wide",
+    image: "/art/comma-on-water.jpg",
+    line: "The sea is a sentence. The boat is the pause.",
+    synopsis:
+      "Blue hour, one pale hull, a path of moon. Gallery quiet. Nothing happens, and that is the event.",
+  },
+  {
+    slug: "gold-dust-dress",
+    title: "Gold Dust Dress",
+    category: "Ethereal",
+    year: "2026",
+    span: "tall",
+    image: "/art/gold-dust.jpg",
+    line: "She is leaving the body the way light leaves a room.",
+    synopsis:
+      "Marble, fog, a figure dissolving into gold. Ethereal not as filter, as physics. The hush is the costume.",
+  },
+  {
+    slug: "the-last-station",
+    title: "The Last Station",
+    category: "Futuristic",
+    year: "2026",
+    span: "mid",
+    image: "/art/last-station.jpg",
+    line: "A red train waiting in a white shell. Dawn with no passengers.",
+    synopsis:
+      "Maglev architecture as tenderness. Sterile, then suddenly human. The future, held before the doors open.",
+  },
+  {
+    slug: "stairs-that-fold",
+    title: "Stairs That Fold",
+    category: "Illusion",
+    year: "2026",
+    span: "tall",
+    image: "/art/stairs-fold.jpg",
+    line: "Up and down are the same instruction, if you trust the stone.",
+    synopsis:
+      "An impossible stairwell, one figure, museum light. Optical illusion as choreography. The eye is the editor.",
+  },
+  {
+    slug: "two-lives-one-cut",
+    title: "Two Lives, One Cut",
+    category: "Double Exposure",
+    year: "2026",
+    span: "mid",
+    image: "/art/two-lives.jpg",
+    line: "A forest growing through a face. Winter as a second biography.",
+    synopsis:
+      "Analog composite, silver and bone. Double exposure as confession. Two lives occupying one frame until neither blinks.",
+  },
+  {
+    slug: "night-circuit",
+    title: "Night Circuit",
+    category: "Asphalt",
+    year: "2026",
+    span: "wide",
+    image: "/art/night-circuit.jpg",
+    line: "Rain on the hood. Light that refuses to sit still.",
+    synopsis:
+      "A black car, a wet mountain road, trails of amber. Asphalt as cinema. Speed, held in a still.",
+  },
+  {
+    slug: "palace-tiger",
+    title: "Palace Tiger",
+    category: "Animals",
+    year: "2026",
+    span: "tall",
+    image: "/art/palace-tiger.jpg",
+    line: "Royalty that does not need a throne. Silk is enough.",
+    synopsis:
+      "A white tiger in a ruined palace of moonlight. Animal as myth, not mascot. The gaze is the whole script.",
+  },
+  {
+    slug: "letter-to-rain",
+    title: "Letter to Rain",
+    category: "Poetic",
+    year: "2026",
+    span: "mid",
+    image: "/art/letter-rain.jpg",
+    line: "A page, a flower, a window. The weather reading over your shoulder.",
+    synopsis:
+      "Still life as a poem you do not have to finish. Ink that almost speaks. The rain is the only critic in the room.",
+  },
+  {
+    slug: "when-the-signal-fails",
+    title: "When the Signal Fails",
+    category: "Glitch",
+    year: "2026",
+    span: "wide",
+    image: "/art/signal-fails.jpg",
+    line: "Marble that remembers being a file. Beauty, with the channels split.",
+    synopsis:
+      "A classical bust in RGB fracture. Glitch as restoration, not damage. The face stays, the signal does not.",
+  },
+  {
+    slug: "koi-in-the-nave",
+    title: "Koi in the Nave",
+    category: "Surrealism",
+    year: "2026",
+    span: "tall",
+    image: "/art/koi-nave.jpg",
+    line: "A church that learned how to hold water. Gold, swimming the aisle.",
+    synopsis:
+      "Baroque light, a giant koi, dust as stained glass. Surrealism at museum volume. Faith, rewritten as weather.",
   },
 ];
 
