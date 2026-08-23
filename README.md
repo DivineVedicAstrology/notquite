@@ -28,7 +28,14 @@ npm run typecheck
 3. Confirm the framework preset is **TanStack Start**.
 4. Click **Deploy**. Leave env vars empty for the first launch.
 
-Every push to `main` then publishes a new production build. First public URL will look like `notquite.vercel.app`. A custom domain can be added later in Vercel → Project → Settings → Domains.
+Every push to `main` then publishes a new production build.
+
+Public URL: [notquitereal.art](https://notquitereal.art)  
+Founder book: [notquitereal.art/founders](https://notquitereal.art/founders)
+
+The wordmark on the site stays **notquite**. The domain is the address, not a rename.
+
+To attach the domain: Vercel → Project → Settings → Domains → add `notquitereal.art`. Then at Namecheap set Custom DNS to `ns1.vercel-dns.com` and `ns2.vercel-dns.com`.
 
 Optional later: add `DATABASE_URL` (Neon) if you want contact submissions to persist in production.
 
