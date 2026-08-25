@@ -42,7 +42,7 @@ export function ProjectGrid({ locked }: { locked?: Category } = {}) {
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted">
               {locked === "UGC"
                 ? `${visible.length} stills. Hover. This is what eleven seconds looks like before your brand walks in.`
-                : `${projects.length} stills. Hover for the line behind the cut. Filter a room: cyberpunk, ocean, animal, poetic, or UGC luxury.`}
+                : `${projects.length} stills. Hover for the line behind the cut. Filter a room: editorial, cyberpunk, ocean, animal, poetic, or UGC luxury.`}
             </p>
           </div>
           <p className="font-mono text-[0.65rem] tracking-[0.22em] text-subtle uppercase">
