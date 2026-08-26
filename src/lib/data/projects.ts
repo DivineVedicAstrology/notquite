@@ -418,23 +418,12 @@ export const projects: Project[] = [
       "Quiet-luxury womenswear. Ivory corset, pearl orbit, sea behind glass. The garment holds weather. The hour holds the brand.",
   },
   {
-    slug: "the-answer-issue",
-    title: "The Answer Issue",
-    category: "Editorial",
-    year: "2026",
-    span: "tall",
-    image: "/art/answer-issue.jpg",
-    line: "Is she real. Glass where a face used to decide.",
-    synopsis:
-      "A cover, not a campaign. Chrome and pearl over skin. The question is the whole masthead.",
-  },
-  {
     slug: "the-beauty-issue",
     title: "The Beauty Issue",
     category: "Editorial",
     year: "2026",
     span: "tall",
-    image: "/art/beauty-issue.jpg",
+    image: "/art/beauty-issue.jpg.jpeg",
     line: "Is she real. Skin that learned how to pour.",
     synopsis:
       "Poreless fiction. A magazine that treats the face as weather. Beauty, held at museum volume.",
@@ -445,7 +434,7 @@ export const projects: Project[] = [
     category: "Editorial",
     year: "2026",
     span: "tall",
-    image: "/art/voyage-issue.jpg",
+    image: "/art/voyage-issue.jpg.jpeg",
     line: "Is this place real. A shore you cannot book.",
     synopsis:
       "Travel editorial for a country that exists only in the cut. Chrome mountains, black sand, one figure in the wind.",
@@ -456,7 +445,7 @@ export const projects: Project[] = [
     category: "Editorial",
     year: "2026",
     span: "tall",
-    image: "/art/machine-issue.jpg",
+    image: "/art/machine-issue.jpg.jpeg",
     line: "Is this real. Speed wearing a face.",
     synopsis:
       "Motor as myth. Pearls on chrome. A cover for a house that wants the car to feel inevitable.",
@@ -478,7 +467,7 @@ export const projects: Project[] = [
     category: "Editorial",
     year: "2026",
     span: "tall",
-    image: "/art/court-issue.jpg",
+    image: "/art/court-issue.jpg.jpeg",
     line: "Can she hold serve. Human face. Chrome body. One racket.",
     synopsis:
       "Sports as couture. Clay court, single spotlight, a serve that is almost human.",
