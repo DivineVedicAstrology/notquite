@@ -418,6 +418,17 @@ export const projects: Project[] = [
       "Quiet-luxury womenswear. Ivory corset, pearl orbit, sea behind glass. The garment holds weather. The hour holds the brand.",
   },
   {
+    slug: "coral-signal",
+    title: "Coral Signal",
+    category: "Glitch",
+    year: "2026",
+    span: "wide",
+    image: "/art/coral-signal.jpg",
+    line: "Crown holds. Pixels leave. The ocean watches.",
+    synopsis:
+      "A face half myth, half file. Coral and shell keep the right side. The left dissolves into pure signal. Jellyfish as the only witnesses.",
+  },
+  {
     slug: "the-beauty-issue",
     title: "The Beauty Issue",
     category: "Editorial",
