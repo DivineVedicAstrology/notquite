@@ -55,6 +55,16 @@ export function SiteFooter() {
               </a>
             </li>
             <li>
+              <a
+                href="https://www.mage.space/u/RahulAiArt"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-muted transition-colors hover:text-fg"
+              >
+                @RahulAiArt · Mage gallery
+              </a>
+            </li>
+            <li>
               <a href="/founders" className="text-sm text-muted transition-colors hover:text-fg">
                 For founders
               </a>
