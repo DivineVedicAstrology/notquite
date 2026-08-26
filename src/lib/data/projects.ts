@@ -448,7 +448,7 @@ export const projects: Project[] = [
     image: "/art/voyage-issue.jpg",
     line: "Is this place real. A shore you cannot book.",
     synopsis:
-      "Travel editorial for a country that exists only in the cut. Chrome mountains, black sand, one coat in the wind.",
+      "Travel editorial for a country that exists only in the cut. Chrome mountains, black sand, one figure in the wind.",
   },
   {
     slug: "the-machine-issue",
@@ -460,6 +460,28 @@ export const projects: Project[] = [
     line: "Is this real. Speed wearing a face.",
     synopsis:
       "Motor as myth. Pearls on chrome. A cover for a house that wants the car to feel inevitable.",
+  },
+  {
+    slug: "the-habitat-issue",
+    title: "The Habitat Issue",
+    category: "Editorial",
+    year: "2026",
+    span: "tall",
+    image: "/art/habitat-issue.jpg",
+    line: "Is this house real. Architecture that melted into couture.",
+    synopsis:
+      "Future habitat as dress. Lit windows under liquid chrome. A dwelling you wear, not one you enter.",
+  },
+  {
+    slug: "the-court-issue",
+    title: "The Court Issue",
+    category: "Editorial",
+    year: "2026",
+    span: "tall",
+    image: "/art/court-issue.jpg",
+    line: "Can she hold serve. Human face. Chrome body. One racket.",
+    synopsis:
+      "Sports as couture. Clay court, single spotlight, a serve that is almost human.",
   },
 ];
 
