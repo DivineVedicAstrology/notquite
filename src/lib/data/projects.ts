@@ -275,6 +275,72 @@ export const projects: Project[] = [
       "The dock as a split. Red silk becomes a current. Fish treat the legs as reef. The future starts at the knees.",
   },
   {
+    slug: "frost-protocol",
+    title: "Frost Protocol",
+    category: "Futuristic",
+    year: "2026",
+    span: "mid",
+    image: "/art/frost-protocol.jpg",
+    line: "Ice as couture. Weather as armour.",
+    synopsis:
+      "A white hunt held at magazine volume. Snowflakes stitched into the coat. The storm is the set.",
+  },
+  {
+    slug: "thaw-protocol",
+    title: "Thaw Protocol",
+    category: "Futuristic",
+    year: "2026",
+    span: "wide",
+    image: "/art/thaw-protocol.jpg",
+    line: "Same ice. Same water. The laugh is the glitch.",
+    synopsis:
+      "Chrome arms, pink weather in the hair. A winter that forgot to stay serious.",
+  },
+  {
+    slug: "the-screening",
+    title: "The Screening",
+    category: "UGC",
+    year: "2026",
+    span: "wide",
+    image: "/art/the-screening.jpg",
+    line: "The house already knows the URL.",
+    synopsis:
+      "A private cinema. One sofa. The domain on the wall. Founders: this is how the brand sits in a life.",
+  },
+  {
+    slug: "terrace-hour",
+    title: "Terrace Hour",
+    category: "Ethereal",
+    year: "2026",
+    span: "tall",
+    image: "/art/terrace-hour.jpg",
+    line: "Ivory silk. Green steps. Wind as the only crew.",
+    synopsis:
+      "A still that could be a booking and is not. Rice, dusk, a dress that already knows the hour.",
+  },
+  {
+    slug: "jetty-cut",
+    title: "Jetty Cut",
+    category: "UGC",
+    year: "2026",
+    span: "tall",
+    image: "/art/jetty-cut.jpg",
+    line: "Gold buttons. Turquoise under the boards. Quiet luxury that walks.",
+    synopsis:
+      "A look a house could inhabit in eleven seconds. No villa rental. The jetty is the runway.",
+  },
+  {
+    slug: "mycelium-king",
+    title: "Mycelium King",
+    category: "Psychedelic",
+    year: "2026",
+    span: "tall",
+    image: "/art/mycelium-king.jpg",
+    line: "Gold horns. Green weather. A grin that knows the forest.",
+    synopsis:
+      "Animal as myth engine. Goggles holding a second city. Psychedelia at relic volume.",
+  },
+  {
     slug: "stairs-that-fold",
     title: "Stairs That Fold",
     category: "Illusion",
