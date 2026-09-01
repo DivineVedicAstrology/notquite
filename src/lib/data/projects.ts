@@ -253,6 +253,28 @@ export const projects: Project[] = [
       "Maglev architecture as tenderness. Sterile, then suddenly human. The future, held before the doors open.",
   },
   {
+    slug: "holiday-protocol",
+    title: "Holiday Protocol",
+    category: "Futuristic",
+    year: "2026",
+    span: "tall",
+    image: "/art/holiday-protocol.jpg",
+    line: "Postcard smile. Circuit face. Chrome arm.",
+    synopsis:
+      "A holiday that already knows it is a machine. Cowries, pink hair, a red dress. The laugh is human. The limb is not.",
+  },
+  {
+    slug: "below-the-line",
+    title: "Below the Line",
+    category: "Futuristic",
+    year: "2026",
+    span: "tall",
+    image: "/art/below-the-line.jpg",
+    line: "Above the water she sits. Below it she is hardware.",
+    synopsis:
+      "The dock as a split. Red silk becomes a current. Fish treat the legs as reef. The future starts at the knees.",
+  },
+  {
     slug: "stairs-that-fold",
     title: "Stairs That Fold",
     category: "Illusion",
